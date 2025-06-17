@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice-Enabled AI Assistant</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>AI Voice Assistant</h1>
+        <div class="chat-container">
+            <div id="chat-messages" class="chat-messages">
+                <div class="message ai-message">
+                    Hello! I'm your AI assistant. Click the microphone button and start speaking.
+                </div>
+            </div>
+            <div class="input-container">
+                <button id="start-btn" class="mic-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2a3 3 0 0 0-3 3v6a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3z"/>
+                        <path d="M19 10v1a7 7 0 0 1-14 0v-1h2v1a5 5 0 0 0 10 0v-1h2z"/>
+                        <path d="M5 12.5v1a7 7 0 0 0 14 0v-1h2v1a9 9 0 0 1-18 0v1h2z"/>
+                    </svg>
+                </button>
+                <div id="status" class="status">Click to speak</div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js" type="module"></script>
+</body>
+</html>
