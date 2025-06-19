@@ -1,5 +1,5 @@
 # Voice-Enabled AI Assistant
-
+link for use : voice-bot-pearl.vercel.app
 A voice-controlled AI assistant that uses the Web Speech API for speech recognition and synthesis, and OpenAI's GPT-3.5-turbo for generating responses.
 
 ## Features
